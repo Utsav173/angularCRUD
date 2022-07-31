@@ -1,0 +1,50 @@
+.black-border {
+  border: 1px solid black;
+}
+
+img {
+  width: 100%;
+  border-radius: 1rem;
+  
+}
+img:hover{
+  width: 101%;
+  box-shadow: 5px 5px 17px rgba(0, 0, 0, 0.427);
+}
+
+table {
+  width: 95%;
+}
+
+.name {
+  font-size: 2rem;
+  font-weight: 600;
+  font-style: italic;
+  letter-spacing: 3px;
+  padding: 0px 2rem;
+  color: inherit;
+}
+
+.name {
+  background:
+    linear-gradient(
+      to right,
+      rgb(0, 33, 33),
+      rgb(255, 255, 255)
+    ),
+    linear-gradient(
+      to right,
+      rgba(255, 0, 0, 1),
+      rgba(255, 0, 180, 1),
+      rgba(0, 100, 200, 1)
+  );
+  background-size: 100% 3px, 0 3px;
+  background-position: 100% 100%, 0 100%;
+  background-repeat: no-repeat;
+  transition: background-size 400ms;
+}
+
+.name:hover {
+  background-size: 0 3px, 100% 3px;
+}
+

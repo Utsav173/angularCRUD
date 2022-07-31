@@ -1,0 +1,20 @@
+{
+  "posts": [
+    {
+      "firstname": "dsad",
+      "lastname": "sadsad",
+      "birthdate": "2022-07-09",
+      "gender": "m",
+      "education": "diploma",
+      "company": "dsas",
+      "jobExperience": 54,
+      "salary": 545455,
+      "profile": "c231ode.png",
+      "id": 12
+    }
+  ],
+  "comments": [],
+  "profile": {
+    "name": "typicode"
+  }
+}
